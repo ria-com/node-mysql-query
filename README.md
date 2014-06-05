@@ -76,6 +76,7 @@ Tests
 -----
 
 **In mysql-query module directory: **
+
 (don't forget to edit 'config/default.js')
 
       mysql-query-dir$ npm install
