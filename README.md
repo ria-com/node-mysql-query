@@ -28,13 +28,13 @@ Example:
 Quick Start
 -----------
 
-**In your project directory, install and verify using npm: **
+**In your project directory, install and verify using npm:**
 
       my-project$ npm init
 
-**Edit the default package.json file: **
+**Edit the default package.json file:**
 
-      (example fragment of package.json file):
+(example fragment of package.json file):
 
 ```javascript
       "dependencies": {
@@ -69,13 +69,13 @@ Quick Start
                 }
       }
 ```
-      See [config](https://www.npmjs.org/package/config) about using 'config' module
+See [config](https://www.npmjs.org/package/config) about using 'config' module
 
 
 Tests
 -----
 
-**In mysql-query module directory: **
+**In mysql-query module directory:**
 
 (don't forget to edit 'config/default.js')
 
