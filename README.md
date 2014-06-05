@@ -70,3 +70,13 @@ Quick Start
       }
 ```
       See [config](https://www.npmjs.org/package/config) about using 'config' module
+
+
+Tests
+-----
+
+**In mysql-query module directory: **
+(don't forget to edit 'config/default.js')
+
+      mysql-query-dir$ npm install
+      mysql-query-dir$ npm test
