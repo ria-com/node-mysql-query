@@ -104,4 +104,4 @@ module.exports = {
 }
 ```
 
-It will tells node.js that it must reconnect to MySQL after 10 seconds
+It will tells node.js that it must reconnects to MySQL after 10 seconds
