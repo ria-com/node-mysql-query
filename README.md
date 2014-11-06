@@ -81,3 +81,27 @@ Tests
 
       mysql-query-dir$ npm install
       mysql-query-dir$ npm test
+
+Advanced settings
+-----------------
+This module reconnects to database 5 times by default. But this limit may be exceeded. Therefore you can specify special section in config file **databasePool**. In this section **restartTimeout** must be specified. For example:
+
+```javascript
+module.exports = {
+    databasePool: {
+        restartTimeout: 10000
+    },
+    database: {
+        master: {
+            host: "localhost",
+            user: "root",
+            password: "",
+            port: "3306",
+            database: "test",
+            connectionLimit: 3
+        }
+    }
+}
+```
+
+It will tells node.js that it must reconnect to MySQL after 10 seconds
