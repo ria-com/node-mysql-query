@@ -105,3 +105,16 @@ module.exports = {
 ```
 
 It will tells node.js that it must reconnects to MySQL after 10 seconds
+
+Pool object
+-----------
+
+You can access to connections pool object via this module. For example:
+
+```javascript
+var query = require("mysql-query");
+
+query.pool.getConnection(function(connection){
+  /* your code here */
+})
+```
